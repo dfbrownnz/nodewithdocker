@@ -28,6 +28,9 @@ git push -u origin main
  * git add .
 git commit -m "Add simple route to server.js"
 
+git branch -M main
+
+git push -u origin main
 */
   res.send('Hello, World! from the web server!');
 });
