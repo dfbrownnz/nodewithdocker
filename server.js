@@ -7,7 +7,8 @@ app.get('/', (req, res) => {
 
   /**
    * ```
-git init
+1. Create a new Node.js project
+  git init
 
 git add .
 
@@ -21,6 +22,13 @@ git push -u origin main
 
 ```
   */
+
+/***
+ * 2. modify the server.js file to include a simple route
+ * git add .
+git commit -m "Add simple route to server.js"
+
+*/
   res.send('Hello, World!');
 });
 
